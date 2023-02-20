@@ -13,7 +13,7 @@
    referrer" />
   <link href="./css/styles.css" rel="stylesheet">
 </head>
-<body>
+<body  class="font-open">
         <!-- header-section -->
         <header class="bg-black py-6 lg:py-12 text-gega-grey uppercase font-gemunu">
             <!-- header-container -->
@@ -59,7 +59,7 @@
         </header>
 
         <!-- hero-section -->
-        <section class="h-64 md:h-96 lg:h-128 group relative">
+        <section class="h-96 lg:h-128 group relative">
             <!-- hero-image -->
             <img src="./images/batman.jpg" alt="img" class="h-full w-full object-cover ">
             <!-- hero-content -->
@@ -104,11 +104,11 @@
 
         <!-- movies -->
         <section class="py-24 bg-black">
-            <div class="container flex space-x-16">
+            <div class="container flex lg:space-x-16 flex-col lg:flex-row space-y-6 lg:space-y-0">
                 <!-- left-content -->
                 <div class="basis-2/3">
                     <!-- title -->
-                    <div class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8">
+                    <div class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8 pl-10 lg:pl-0">
                         <h2><a href="" class="text-gega-red">Latest</a></h2>
                         <h2><a href="" class="text-gega-grey pl-2 hover:text-gega-red duration-500">Popular</a></h2>
                         <h2><a href="" class="text-gega-grey pl-2 hover:text-gega-red duration-500">Best</a></h2>
@@ -116,7 +116,7 @@
                     <!-- images -->
                     <div class="flex flex-wrap">
                         <!-- image-1 -->
-                        <div class="group relative overflow-hidden basis-1/3">
+                        <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                             <img src="./images/mv1.jpg" alt="img" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                             <!-- image-details -->
                             <div class="absolute px-4 bottom-8">
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                         <!-- image-2 -->
-                        <div class="group relative overflow-hidden basis-1/3">
+                        <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                             <img src="./images/mv2.jpg" alt="img" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                             <!-- image-details -->
                             <div class="absolute px-4 bottom-8">
@@ -142,7 +142,7 @@
                             </div>
                         </div>
                          <!-- image-3 -->
-                         <div class="group relative overflow-hidden basis-1/3">
+                         <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                             <img src="./images/mv3.jpg" alt="img" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                             <!-- image-details -->
                             <div class="absolute px-4 bottom-8">
@@ -155,7 +155,7 @@
                             </div>
                         </div>
                           <!-- image-4 -->
-                          <div class="group relative overflow-hidden basis-1/3">
+                          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                             <img src="./images/mv4.jpg" alt="img" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                             <!-- image-details -->
                             <div class="absolute px-4 bottom-8">
@@ -168,7 +168,7 @@
                             </div>
                         </div>
                          <!-- image-5 -->
-                         <div class="group relative overflow-hidden basis-1/3">
+                         <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                             <img src="./images/mv5.jpg" alt="img" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                             <!-- image-details -->
                             <div class="absolute px-4 bottom-8">
@@ -181,7 +181,33 @@
                             </div>
                         </div>
                           <!-- image-6 -->
-                          <div class="group relative overflow-hidden basis-1/3">
+                          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
+                            <img src="./images/mv6.jpg" alt="img" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
+                            <!-- image-details -->
+                            <div class="absolute px-4 bottom-8">
+                                <h3 class="text-black group-hover:text-gega-melon group-hover:mb-2 duration-500">skyfall</h3>
+                                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, placeat.</p>
+                                <div class="absolute -bottom-2 flex text-gega-grey space-x-8 opacity-0 group-hover:opacity-100 duration-500 ">
+                                    <a href=""><i class="fa-solid fa-play  hover:text-gega-red duration-500"></i></a>
+                                    <a href=""><i class="fa-solid fa-arrow-right  hover:text-gega-red duration-500"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- image-7 -->
+                          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
+                            <img src="./images/mv6.jpg" alt="img" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
+                            <!-- image-details -->
+                            <div class="absolute px-4 bottom-8">
+                                <h3 class="text-black group-hover:text-gega-melon group-hover:mb-2 duration-500">skyfall</h3>
+                                <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, placeat.</p>
+                                <div class="absolute -bottom-2 flex text-gega-grey space-x-8 opacity-0 group-hover:opacity-100 duration-500 ">
+                                    <a href=""><i class="fa-solid fa-play  hover:text-gega-red duration-500"></i></a>
+                                    <a href=""><i class="fa-solid fa-arrow-right  hover:text-gega-red duration-500"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- image-8 -->
+                          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
                             <img src="./images/mv6.jpg" alt="img" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                             <!-- image-details -->
                             <div class="absolute px-4 bottom-8">
@@ -196,12 +222,12 @@
                     </div>
                 </div>
                 <!-- right-content -->
-                <div class="basis-1/3">
-                    <h2 class="mb-8 text-gega-grey">hot news</h2>
+                <div class="basis-1/3 pl-10 lg:pl-0">
+                    <h2 class="mb-8 text-gega-grey ">hot news</h2>
                     <!-- news-container -->
-                    <div class="flex flex-col h-full pb-16 justify-between">
+                    <div class="flex flex-row lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between flex-wrap lg:flex-nowrap space-y-2">
                         <!-- item -->
-                        <div class="flex items-center group ">
+                        <div class="flex items-center group basis-3/4 md:basis-1/2">
                             <div class="basis-1/3 h-full">
                                 <img src="./images/new1.jpg" alt="" class="h-full w-full object-cover ">
                             </div>
@@ -211,7 +237,7 @@
                             </div>
                         </div>
                         <!-- item -->
-                        <div class="flex items-center group ">
+                        <div class="flex items-center group basis-3/4 md:basis-1/2 ">
                             <div class="basis-1/3 h-full">
                                 <img src="./images/new1.jpg" alt="" class="h-full w-full object-cover ">
                             </div>
@@ -221,7 +247,7 @@
                             </div>
                         </div>
                         <!-- item -->
-                        <div class="flex items-center group ">
+                        <div class="flex items-center group basis-3/4 md:basis-1/2">
                             <div class="basis-1/3 h-full">
                                 <img src="./images/new1.jpg" alt="" class="h-full w-full object-cover ">
                             </div>
@@ -231,7 +257,7 @@
                             </div>
                         </div>
                         <!-- item -->
-                        <div class="flex items-center group ">
+                        <div class="flex items-center group basis-3/4 md:basis-1/2 ">
                             <div class="basis-1/3 h-full">
                                 <img src="./images/new1.jpg" alt="" class="h-full w-full object-cover ">
                             </div>
@@ -241,7 +267,7 @@
                             </div>
                         </div>
                         <!-- item -->
-                        <div class="flex items-center group ">
+                        <div class="flex items-center group basis-3/4 md:basis-1/2 md:hidden lg:flex">
                             <div class="basis-1/3 h-full">
                                 <img src="./images/new1.jpg" alt="" class="h-full w-full object-cover ">
                             </div>
@@ -256,6 +282,178 @@
             </div>
 
         </section>
+
+        <!-- section -->
+        <div class="bg-gega-white">
+            <div class=" container flex items-center justify-center relative pl-10 lg:pl-0">
+                <!-- left-content -->
+                <div class="md:basis lg:basis-1/2 hidden lg:block">
+                    <img src="./images/matrix.png" alt="" class="lg:absolute lg:bottom-0 ">
+                </div>
+                <div class="md:basis-2/3 lg:basis-1/2">
+                    <!-- right-content -->
+                    <div class="flex flex-col justify-center py-10 mt-3 lg:mt-0 w-3/4 md:w-full">
+                        <h3 class="tracking-wider text-gega-melon">Action, Drama, Thiller</h3>
+                        <h2 class="mb-2">Matrix Reloaded</h2>
+                        <p class="text-sm mb-2 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero natus iure voluptates architecto dolorum, minus aperiam quo sint iusto temporibus?</p>
+                        <h3 class="text-gega-red tracking-wider">8 wins 34 nomination</h3>
+                    </div>
+                </div>
+                <!-- oldie -->
+                <div class="absolute -top-12 left-10 lg:left-0 w-24 h-24 bg-gega-melon rounded-full  text-center flex items-center ">
+                    <p class="font-gemunu uppercase font-bold text-xl text-gega-red -rotate-12">Oldie & Goldie</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- post -->
+         <section class="py-24 bg-black text-gega-grey">
+            <div class="container px-10 lg:px-0">
+                <!-- title -->
+                <h2 class="text-gega-red"><a href="">Popular Post</a></h2>
+                <div class="grid grid-cols-6 gap-10">
+                    <!-- item-1 -->
+                    <div class="col-span-6 md:col-span-3 border border-gega-red">
+                        <div class="border-b border-gega-red p-4 flex items-center justify-between">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <img src="./images/userava1.jpg" alt="" class="rounded-full">
+                        </div>
+                        <p class="text-sm p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eveniet enim placeat, 
+                            laboriosam molestiae necessitatibus provident eos porro ratione fugit!</p>
+                        <!-- item-footer -->
+
+                        <div class="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                            <p>On Dec 17, 2022</p>
+                            <div class="flex items-center justify-center space-x-1">
+                                <i class="fa-regular fa-comment"></i>
+                                <p> 12</p>
+                                <i class="fa-regular fa-heart"></i>
+                                <p>09</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item-2 -->
+                    <div class="col-span-6 md:col-span-3 border border-gega-red">
+                        <div class="border-b border-gega-red p-4 flex items-center justify-between">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <img src="./images/userava1.jpg" alt="" class="rounded-full">
+                        </div>
+                        <p class="text-sm p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eveniet enim placeat, 
+                            laboriosam molestiae necessitatibus provident eos porro ratione fugit!</p>
+                        <!-- item-footer -->
+
+                        <div class="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                            <p>On Dec 17, 2022</p>
+                            <div class="flex items-center justify-center space-x-1">
+                                <i class="fa-regular fa-comment"></i>
+                                <p> 12</p>
+                                <i class="fa-regular fa-heart"></i>
+                                <p>09</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item-3 -->
+                    <div class="col-span-6 md:col-span-3 lg:col-span-2 border border-gega-red">
+                        <div class="border-b border-gega-red p-4 flex items-center justify-between">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <img src="./images/userava1.jpg" alt="" class="rounded-full">
+                        </div>
+                        <p class="text-sm p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eveniet enim placeat, 
+                            laboriosam molestiae necessitatibus provident eos porro ratione fugit!</p>
+                        <!-- item-footer -->
+
+                        <div class="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                            <p>On Dec 17, 2022</p>
+                            <div class="flex items-center justify-center space-x-1">
+                                <i class="fa-regular fa-comment"></i>
+                                <p> 12</p>
+                                <i class="fa-regular fa-heart"></i>
+                                <p>09</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item-4 -->
+                    <div class="hidden md:block md:col-span-3 lg:col-span-2  border border-gega-red">
+                        <div class="border-b border-gega-red p-4 flex items-center justify-between">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <img src="./images/userava1.jpg" alt="" class="rounded-full">
+                        </div>
+                        <p class="text-sm p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eveniet enim placeat, 
+                            laboriosam molestiae necessitatibus provident eos porro ratione fugit!</p>
+                        <!-- item-footer -->
+
+                        <div class="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                            <p>On Dec 17, 2022</p>
+                            <div class="flex items-center justify-center space-x-1">
+                                <i class="fa-regular fa-comment"></i>
+                                <p> 12</p>
+                                <i class="fa-regular fa-heart"></i>
+                                <p>09</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item-5 -->
+                    <div class="hidden lg:block col-span-2 border border-gega-red">
+                        <div class="border-b border-gega-red p-4 flex items-center justify-between">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <img src="./images/userava1.jpg" alt="" class="rounded-full">
+                        </div>
+                        <p class="text-sm p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eveniet enim placeat, 
+                            laboriosam molestiae necessitatibus provident eos porro ratione fugit!</p>
+                        <!-- item-footer -->
+
+                        <div class="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                            <p>On Dec 17, 2022</p>
+                            <div class="flex items-center justify-center space-x-1">
+                                <i class="fa-regular fa-comment"></i>
+                                <p> 12</p>
+                                <i class="fa-regular fa-heart"></i>
+                                <p>09</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+         </section>
+
+        <!-- footer -->
+        <footer class="bg-black text-gega-grey">
+            <div class="container flex flex-col md:flex-row px-10 lg:px-0 pb-8">
+                <div class="basis-1/3">
+                <!-- logo -->
+                <a href="" class="text-2xl lg:text-3xl  font-bold text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-gega-grey uppercase">gega</a>
+
+                <p class="text-sm mt-2">2022 &copy; Copyright</p>
+                </div>
+               <!-- middle -->
+               <div class="basis-1/3">
+                <h2 class="mb-2 text-gega-red">LINKS</h2>
+                <div class="grid grid-cols-5 gap-2 uppercase">
+                    <a href="" class="col-span-2 hover:text-gega-melon duration-500 ">Movies</a>
+                    <a href="" class="col-span-2 hover:text-gega-melon duration-500 ">celebrities</a>
+                    <a href="" class="col-span-2 hover:text-gega-melon duration-500 ">blog</a>
+                    <a href="" class="col-span-2 hover:text-gega-melon duration-500 ">about</a>
+                    <a href="" class="col-span-2 hover:text-gega-melon duration-500 ">news</a>
+
+                </div>
+               </div>
+                 <!-- right -->
+                <div class="basis-1/3">
+                    <h2 class="mb-2 text-gega-red">follow us</h2>
+                    <form class="flex">
+                        <input type="text" class="py-1 px-2 bg-transparent border border-gega-red outline-none text-sm uppercase" placeholder="Enter email">
+                        <button class="py-1 px-2 bg-gega-red font-gemunu" >Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+          
+        </footer>
+
 
   
 </body>
