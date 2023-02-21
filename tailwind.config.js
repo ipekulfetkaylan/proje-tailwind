@@ -16,8 +16,8 @@ module.exports = {
         open: ['Open Sans', 'sans-serif']
       },
       colors: {
-        'gega-red': '#BC1A45',
-        'gega-melon': '#FFD369',
+        'gega-red': '#1F8A70',
+        'gega-melon': '#FC7300',
         'gega-grey': '#DDDDDD',
         'gega-white': '#F7F7F7',
       },
